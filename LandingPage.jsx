@@ -22,6 +22,14 @@ export default function LandingPage({ onSelectInstitution }) {
             </button>
           ))}
         </div>
+
+        <div className="mt-20 flex justify-center">
+          <img
+            src="/logo.png"
+            alt="MockLab"
+            className="w-40 opacity-90 sm:w-48"
+          />
+        </div>
       </div>
     </div>
   );
